@@ -1,5 +1,5 @@
 # NUC7i7BNH
-Hackintoh NUC7i7BNH - OpenCore 0.5.9
+Hackintosh NUC7i7BNH - OpenCore 0.5.9
 
 ### Specs
 + OS: macOS Catalina 10.15.5 (Build 19F96) x86_64 / iMac16.2
