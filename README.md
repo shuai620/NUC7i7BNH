@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintoh NUC7i7BNH - OpenCore 0.5.8
+Hackintoh NUC7i7BNH - OpenCore 0.5.9
 
 ### Specs
-+ OS: macOS Catalina 10.15.4 (Build 19E287) x86_64 / iMac16.2
++ OS: macOS Catalina 10.15.5 (Build 19E287) x86_64 / iMac16.2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 3.90 GHz)
 
