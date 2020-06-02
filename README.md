@@ -10,6 +10,8 @@ Hackintosh NUC7i7BNH - OpenCore 0.5.9
 
 + NVMe: Samsung SSD 970 EVO Plus 250GB
 
++ SATA: INTEL SSD 120GB
+
 + RAM: 8GB x 2 DDR4 2133 MHz
 
 + BIOS: 0082
@@ -28,3 +30,5 @@ Hackintosh NUC7i7BNH - OpenCore 0.5.9
 ### Credits
 
 + https://github.com/RehabMan/Intel-NUC-DSDT-Patch
+
++ https://github.com/zxystd/IntelBluetoothFirmware
