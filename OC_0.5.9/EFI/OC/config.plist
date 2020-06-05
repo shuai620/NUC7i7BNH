@@ -10,7 +10,7 @@
 				<key>Comment</key>
 				<string>NUC SSDT</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-DDA.aml</string>
 			</dict>
@@ -662,6 +662,34 @@
 			</dict>
 			<dict>
 				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>ILniAAAADzA=</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>ILniAAAAkJA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Base</key>
 				<string>_panic</string>
 				<key>Comment</key>
 				<string>Send panic string to serial port</string>
@@ -722,7 +750,7 @@
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -821,7 +849,7 @@
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>2</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>ScanPolicy</key>
@@ -884,7 +912,7 @@
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>Ag==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -896,11 +924,11 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 slide=0 darkwake=0 -v</string>
+				<string>keepsyms=1 slide=0 darkwake=0 -v -cdfon lilucpu=9</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>cnUtUlU6MjUy</data>
+				<data></data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -925,6 +953,8 @@
 				<string>fmm-computer-name</string>
 				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
+				<string>efi-boot-device</string>
+				<string>efi-boot-device-data</string>
 			</array>
 			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
 			<array>
@@ -947,17 +977,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>change_me</string>
+			<string>C02528401QXGQRYJC</string>
 			<key>ROM</key>
-			<data>yu4=</data>
+			<data>o3PsVd5I</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>change_me</string>
+			<string>C02Q22YNGG78</string>
 			<key>SystemUUID</key>
-			<string>change_me</string>
+			<string>208EC7D5-6B87-4E22-A380-F2B96855DE48</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -973,11 +1003,11 @@
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
-			<false/>
+			<true/>
 			<key>HideVerbose</key>
 			<false/>
 			<key>JumpstartHotPlug</key>
-			<false/>
+			<true/>
 			<key>MinDate</key>
 			<integer>0</integer>
 			<key>MinVersion</key>
@@ -1046,7 +1076,7 @@
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ConsoleMode</key>
-			<string></string>
+			<string>Max</string>
 			<key>DirectGopCacheMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
@@ -1083,7 +1113,7 @@
 			<key>AppleRtcRam</key>
 			<false/>
 			<key>AppleSmcIo</key>
-			<false/>
+			<true/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>DataHub</key>
@@ -1104,7 +1134,7 @@
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
-			<false/>
+			<true/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
 			<key>RequestBootVarFallback</key>
