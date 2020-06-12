@@ -29,6 +29,12 @@ Hackintosh NUC7i7BNH - OpenCore 0.5.9
 
 ### Credits
 
++ https://www.tonymacx86.com/threads/guide-intel-nuc7-nuc8-using-clover-uefi-nuc7i7bxx-nuc8i7bxx-etc.261711/
+
++ https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/kaby-lake.html
+
 + https://github.com/RehabMan/Intel-NUC-DSDT-Patch
 
 + https://github.com/zxystd/IntelBluetoothFirmware
+
+
