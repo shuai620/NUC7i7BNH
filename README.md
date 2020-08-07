@@ -1,12 +1,16 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.5.9
+Hackintosh NUC7i7BNH - OpenCore 0.6.0
 
 ### Specs
-+ OS: macOS Catalina 10.15.5 (Build 19F96) x86_64 / iMac16.2
++ OS: macOS Catalina 10.15.6 (Build 19G73) x86_64 / iMac16.2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 3.90 GHz)
 
 + Graphics: Intel Iris Plus Graphics 650
+
++ Audio: Realtek ALC 283
+
++ Microphone
 
 + NVMe: Samsung SSD 970 EVO Plus 250GB
 
@@ -14,18 +18,12 @@ Hackintosh NUC7i7BNH - OpenCore 0.5.9
 
 + RAM: 8GB x 2 DDR4 2133 MHz
 
-+ BIOS: 0082
++ BIOS: 0083
 
 + Monitor: DELL P2418D
 
-
-### Not working
-
-+ Intel wireless card
-
-+ Microphone
-
-+ MSR 0xE2 still locked
+### Comments
+Intel wireless card driver can be found in http://bbs.pcbeta.com/viewthread-1848662-1-2.html
 
 ### Credits
 
@@ -36,5 +34,3 @@ Hackintosh NUC7i7BNH - OpenCore 0.5.9
 + https://github.com/RehabMan/Intel-NUC-DSDT-Patch
 
 + https://github.com/zxystd/IntelBluetoothFirmware
-
-
