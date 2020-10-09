@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.6.0
+Hackintosh NUC7i7BNH - OpenCore 0.6.2
 
 ### Specs
-+ OS: macOS Catalina 10.15.6 (Build 19G73) x86_64 / iMac16.2
++ OS: macOS Catalina 10.15.7 (Build 19H2) x86_64 / iMac16.2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 3.90 GHz)
 
@@ -23,7 +23,7 @@ Hackintosh NUC7i7BNH - OpenCore 0.6.0
 + Monitor: DELL P2418D
 
 ### Comments
-Intel wireless card driver can be found in http://bbs.pcbeta.com/viewthread-1848662-1-2.html
+Intel wireless card driver can be found in https://github.com/OpenIntelWireless/itlwm
 
 ### Credits
 
