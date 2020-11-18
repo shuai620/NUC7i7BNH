@@ -3,8 +3,6 @@ Hackintosh NUC7i7BNH - OpenCore 0.6.3
 
 ### Specs
 + OS: macOS Big Sur 11.0.1 (Build 20B29) x86_64 / iMac16.2
-+ OS: macOS Catalina 10.15.7 (Build 19H15) x86_64 / iMac16.2
-
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 3.90 GHz)
 
@@ -24,8 +22,12 @@ Hackintosh NUC7i7BNH - OpenCore 0.6.3
 
 + Monitor: DELL P2418D
 
+### Not working
+
++ Build-in microphone, but the microphone on my headphone is working
+
 ### Comments
-Intel wireless card driver can be found in https://github.com/OpenIntelWireless/itlwm
+Intel wireless card driver for Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
 
 ### Credits
 
