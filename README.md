@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.6.4
+Hackintosh NUC7i7BNH - OpenCore 0.6.5
 
 ### Specs
-+ OS: macOS Big Sur 11.0.1 (Build 20B29) x86_64 / iMac16.2
++ OS: macOS Big Sur 11.1 (Build 20C69) x86_64 / iMac16.2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 3.90 GHz)
 
