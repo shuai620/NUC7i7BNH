@@ -1,5 +1,5 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.6.9
+Hackintosh NUC7i7BNH - OpenCore 0.7.0
 
 ### Specs
 + OS: macOS Big Sur 11.4 (Build 20F71) x86_64 / iMac16,2
