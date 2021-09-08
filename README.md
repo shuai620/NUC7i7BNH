@@ -30,7 +30,7 @@ Hackintosh NUC7i7BNH - OpenCore 0.7.3
 
 + Inject CPU power management data in CPUFriendDataProvider.kext, thanks to https://github.com/corpnewt/CPUFriendFriend
 
-+ Intel wireless card driver and bluetooth driver for Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
++ Intel wireless card driver for Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
 
 + Intel bluetooth driver for Big Sur can be found in https://github.com/zxystd/IntelBluetoothFirmware
 
