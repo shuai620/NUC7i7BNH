@@ -1,10 +1,10 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.7.1
+Hackintosh NUC7i7BNH - OpenCore 0.7.3
 
 ### Specs
-+ OS: macOS Big Sur 11.5.1 (Build 20G80) x86_64 / iMac16,2
++ OS: macOS Big Sur 11.5.2 (Build 20G95) x86_64 / iMac18,1
 
-+ CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 3.90 GHz)
++ CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 3.90 GHz, down to 0.7 MHz)
 
 + Graphics: Intel Iris Plus Graphics 650
 
@@ -20,12 +20,19 @@ Hackintosh NUC7i7BNH - OpenCore 0.7.1
 
 + Monitor: DELL P2418D
 
-### Not working
-
-+ Build-in microphone, but the microphone on my headphone is working.
-
 ### Comments
-Intel wireless card driver for Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
+
++ Enable Sidecar by switching iMac16,2 to iMac18,1 (logout AppleID first before switching).
+
++ update 'USBMap.kext'.
+
++ Enable build-in microphone by changing "layout-ID=15".
+
++ Inject CPU power management data in CPUFriendDataProvider.kext, thanks to https://github.com/corpnewt/CPUFriendFriend
+
++ Intel wireless card driver and bluetooth driver for Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
+
++ Intel bluetooth driver for Big Sur can be found in https://github.com/zxystd/IntelBluetoothFirmware
 
 ### Credits
 
@@ -34,5 +41,3 @@ Intel wireless card driver for Big Sur can be found in https://github.com/OpenIn
 + https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/kaby-lake.html
 
 + https://github.com/RehabMan/Intel-NUC-DSDT-Patch
-
-+ https://github.com/zxystd/IntelBluetoothFirmware
