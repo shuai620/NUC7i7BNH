@@ -2,9 +2,9 @@
 Hackintosh NUC7i7BNH - OpenCore 0.7.4
 
 ### Specs
-+ OS: macOS Big Sur 11.6 (Build 20G165) x86_64 / iMac18,1
++ OS: macOS Monterey 12.0.1 (Build 21G559) x86_64 / iMac18,1
 
-+ CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 3.90 GHz, down to 700 MHz)
++ CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 700 MHz)
 
 + Graphics: Intel Iris Plus Graphics 650
 
@@ -16,9 +16,17 @@ Hackintosh NUC7i7BNH - OpenCore 0.7.4
 
 + RAM: 8GB x 2 DDR4 2133 MHz
 
-+ BIOS: 0083
++ BIOS: 0085
 
 + Monitor: DELL P2418D
+
+
+### Before upgrading to Monterey
+
++ Remove "FakePCIID.kext", otherwise the computer will freeze after booting for about 10 mins !!!
+
++ Replace "IntelBluetoothInjector.kext" with "BlueToolFixup.kext"
+
 
 ### Comments
 
