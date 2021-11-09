@@ -1,5 +1,5 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.7.4
+Hackintosh NUC7i7BNH - OpenCore 0.7.5
 
 ### Specs
 + OS: macOS Monterey 12.0.1 (Build 21G559) x86_64 / iMac18,1
@@ -38,9 +38,9 @@ Hackintosh NUC7i7BNH - OpenCore 0.7.4
 
 + Inject CPU power management data in CPUFriendDataProvider.kext, thanks to https://github.com/corpnewt/CPUFriendFriend
 
-+ Intel wireless card driver for Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
++ Intel wireless card driver for Monterey and Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
 
-+ Intel bluetooth driver for Big Sur can be found in https://github.com/zxystd/IntelBluetoothFirmware
++ Intel bluetooth driver for Monterey and Big Sur can be found in https://github.com/zxystd/IntelBluetoothFirmware
 
 ### Credits
 
