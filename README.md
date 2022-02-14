@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.7.7
+Hackintosh NUC7i7BNH - OpenCore 0.7.8
 
 ### Specs
-+ OS: macOS Monterey 12.1 (Build 21C52) x86_64 / iMac18,1
++ OS: macOS Monterey 12.2.1 (Build 21D62) x86_64 / iMac18,1
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 700 MHz)
 
@@ -16,7 +16,7 @@ Hackintosh NUC7i7BNH - OpenCore 0.7.7
 
 + RAM: 8GB x 2 DDR4 2133 MHz
 
-+ BIOS: 0085
++ BIOS: 0088
 
 + Monitor: DELL P2418D
 
@@ -24,6 +24,8 @@ Hackintosh NUC7i7BNH - OpenCore 0.7.7
 ### Before upgrading to Monterey
 
 + Remove "FakePCIID.kext", otherwise the computer will freeze after booting for about 10 mins !!!
+
++ After removing "FakePCIID.kext", HMDI audio needs reconnection to be identified.
 
 + Replace "IntelBluetoothInjector.kext" with "BlueToolFixup.kext"
 
