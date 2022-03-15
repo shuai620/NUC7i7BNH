@@ -1,10 +1,10 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.7.8
+Hackintosh NUC7i7BNH - OpenCore 0.7.9
 
 ### Specs
-+ OS: macOS Monterey 12.2.1 (Build 21D62) x86_64 / iMac18,1
++ OS: macOS Monterey 12.3 (Build 21E230) x86_64 / iMac18,1
 
-+ CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 700 MHz)
++ CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
 + Graphics: Intel Iris Plus Graphics 650
 
