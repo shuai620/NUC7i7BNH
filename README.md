@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.7.9
+Hackintosh NUC7i7BNH - OpenCore 0.8.0
 
 ### Specs
-+ OS: macOS Monterey 12.3 (Build 21E230) x86_64 / iMac18,1
++ OS: macOS Monterey 12.3.1 (Build 21E258) x86_64 / MacBook Pro14,2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -33,6 +33,8 @@ Hackintosh NUC7i7BNH - OpenCore 0.7.9
 ### Comments
 
 + Enable Sidecar by switching iMac16,2 to iMac18,1 (logout AppleID first before switching).
+
++ Switching from iMac18,1 to MacBookPro14,2, CPU power management will be more balanced.
 
 + update 'USBMap.kext'.
 
