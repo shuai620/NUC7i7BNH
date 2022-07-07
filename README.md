@@ -2,7 +2,7 @@
 Hackintosh NUC7i7BNH - OpenCore 0.8.0
 
 ### Specs
-+ OS: macOS Monterey 12.3.1 (Build 21E258) x86_64 / MacBook Pro14,2
++ OS: macOS Monterey 12.4 (Build 21F79) x86_64 / MacBook Pro14,2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -40,7 +40,7 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.0
 
 + Enable build-in microphone by changing "layout-ID=15".
 
-+ Inject CPU power management data in CPUFriendDataProvider.kext, thanks to https://github.com/corpnewt/CPUFriendFriend
++ Inject CPU power management data in CPUFriendDataProvider.kext, thanks to https://github.com/corpnewt/CPUFriendFriend. Or use ssdtPRGen.sh to generate ssdt.aml, https://github.com/Piker-Alpha/ssdtPRGen.sh
 
 + Intel wireless card driver for Monterey and Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
 
