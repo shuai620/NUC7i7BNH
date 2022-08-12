@@ -23,11 +23,11 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.3
 
 ### Before upgrading to Monterey
 
-+ Remove "FakePCIID.kext", otherwise the computer will freeze after booting for about 10 mins !!!
++ Remove "FakePCIID.kext", otherwise the computer will freeze after booting for about 10 mins !!! After removing "FakePCIID.kext", HMDI audio needs reconnection to be identified.
 
-+ After removing "FakePCIID.kext", HMDI audio needs reconnection to be identified.
++ New progress!! Intel HMDI audio has been fixed by recompiling "FakePCIID.kext" with Xcode 13, and "fakepciid_intel_hdmi_audio.kext" has been integrated into new "FakePCIID.kext".
 
-+ Replace "IntelBluetoothInjector.kext" with "BlueToolFixup.kext"
++ Replace "IntelBluetoothInjector.kext" with "BlueToolFixup.kext". 
 
 
 ### Comments
@@ -40,7 +40,7 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.3
 
 + Enable build-in microphone by changing "layout-ID=15".
 
-+ Inject CPU power management data in CPUFriendDataProvider.kext, thanks to https://github.com/corpnewt/CPUFriendFriend. Or use ssdtPRGen.sh to generate ssdt.aml, https://github.com/Piker-Alpha/ssdtPRGen.sh
++ Inject CPU power management data in CPUFriendDataProvider.kext, thanks to https://github.com/corpnewt/CPUFriendFriend. Or use ssdtPRGen.sh to generate ssdt.aml, https://github.com/Piker-Alpha/ssdtPRGen.sh. Choose either method.
 
 + Intel wireless card driver for Monterey and Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
 
