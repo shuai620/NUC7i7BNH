@@ -2,7 +2,7 @@
 Hackintosh NUC7i7BNH - OpenCore 0.8.5
 
 ### Specs
-+ OS: macOS Monterey 12.6 (Build 21G115) x86_64 / MacBook Pro14,2
++ OS: macOS Monterey 13.0 (Build 22A380) x86_64 / MacBook Pro14,2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -29,6 +29,9 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.5
 
 + Replace "IntelBluetoothInjector.kext" with "BlueToolFixup.kext". 
 
+### Before upgrading to Ventura from Monterey
+
++ Replace "AirportItlwm.kext" with Ventura version.
 
 ### Comments
 
