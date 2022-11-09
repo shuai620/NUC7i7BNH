@@ -1,5 +1,5 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.8.5
+Hackintosh NUC7i7BNH - OpenCore 0.8.6
 
 ### Specs
 + OS: macOS Ventura 13.0 (Build 22A380) x86_64 / MacBook Pro14,2
@@ -35,6 +35,8 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.5
 
 ### Comments
 
++ Sleep doesn't work for Ventura.
+
 + Enable Sidecar by switching iMac16,2 to iMac18,1 (logout AppleID first before switching).
 
 + Switching from iMac18,1 to MacBookPro14,2, CPU power management will be more balanced.
@@ -45,9 +47,9 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.5
 
 + Inject CPU power management data in CPUFriendDataProvider.kext, thanks to https://github.com/corpnewt/CPUFriendFriend. Or use ssdtPRGen.sh to generate ssdt.aml, https://github.com/Piker-Alpha/ssdtPRGen.sh. Choose either method.
 
-+ Intel wireless card driver for Monterey and Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
++ Intel wireless card driver for Ventura, Monterey and Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
 
-+ Intel bluetooth driver for Monterey and Big Sur can be found in https://github.com/zxystd/IntelBluetoothFirmware
++ Intel bluetooth driver for Ventura, Monterey and Big Sur can be found in https://github.com/zxystd/IntelBluetoothFirmware
 
 ### Credits
 
