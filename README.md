@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.8.6
+Hackintosh NUC7i7BNH - OpenCore 0.8.7
 
 ### Specs
-+ OS: macOS Ventura 13.0 (Build 22A380) x86_64 / MacBook Pro14,2
++ OS: macOS Ventura 13.1 (Build 22C65) x86_64 / MacBook Pro14,2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -10,7 +10,7 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.6
 
 + Audio: Realtek ALC 283
 
-+ NVMe: Samsung SSD 970 EVO Plus 250GB
++ NVMe: TOSHIBA SSD 512GB
 
 + SATA: INTEL SSD 120GB
 
@@ -20,10 +20,13 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.6
 
 + Monitor: DELL P2418D
 
+### Don't work
+
++ Sleep doesn't work for Ventura.
 
 ### Before upgrading to Monterey
 
-+ Remove "FakePCIID.kext", otherwise the computer will freeze after booting for about 10 mins !!! After removing "FakePCIID.kext", HMDI audio needs reconnection to be identified.
++ Remove "FakePCIID.kext", otherwise the computer will freeze after booting for about 10 mins !!! After removing "FakePCIID.kext", HMDI audio needs reconnection to be identified. Don't use old "FakePCIID.kext"!!!
 
 + New progress!! Intel HMDI audio has been fixed by recompiling "FakePCIID.kext" with Xcode 13, and "fakepciid_intel_hdmi_audio.kext" has been integrated into new "FakePCIID.kext".
 
@@ -35,7 +38,7 @@ Hackintosh NUC7i7BNH - OpenCore 0.8.6
 
 ### Comments
 
-+ Sleep doesn't work for Ventura.
++ Fix HEVC support in VideoProc, by delete the item in "config.plist": DeviceProperties -> PciRoot(0x0)/Pci(0x2,0x0) -> "AAPL,slot-name".
 
 + Enable Sidecar by switching iMac16,2 to iMac18,1 (logout AppleID first before switching).
 
