@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.9.0
+Hackintosh NUC7i7BNH - OpenCore 0.9.1
 
 ### Specs
-+ OS: macOS Ventura 13.3 (Build 22E252) x86_64 / MacBook Pro14,2
++ OS: macOS Ventura 13.3.1 (Build 22E261) x86_64 / MacBook Pro14,2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -16,7 +16,7 @@ Hackintosh NUC7i7BNH - OpenCore 0.9.0
 
 + RAM: 8GB x 2 DDR4 2133 MHz
 
-+ BIOS: 0089
++ BIOS: 0091
 
 + Monitor: DELL P2418D
 
