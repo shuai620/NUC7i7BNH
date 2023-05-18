@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.9.1
+Hackintosh NUC7i7BNH - OpenCore 0.9.2
 
 ### Specs
-+ OS: macOS Ventura 13.3.1 (Build 22E261) x86_64 / MacBook Pro14,2
++ OS: macOS Ventura 13.3.1(a) (Build 22E772610a) x86_64 / MacBook Pro14,2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -11,8 +11,6 @@ Hackintosh NUC7i7BNH - OpenCore 0.9.1
 + Audio: Realtek ALC 283
 
 + NVMe: TOSHIBA SSD 512GB
-
-+ SATA: INTEL SSD 120GB
 
 + RAM: 8GB x 2 DDR4 2133 MHz
 
