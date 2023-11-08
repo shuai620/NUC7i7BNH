@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 0.9.5
+Hackintosh NUC7i7BNH - OpenCore 0.9.6
 
 ### Specs
-+ OS: macOS Ventura 13.6 (Build 22G120) x86_64 / MacBook Pro14,2
++ OS: macOS Ventura 13.6.1 (Build 22G313) x86_64 / MacBook Pro14,2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
