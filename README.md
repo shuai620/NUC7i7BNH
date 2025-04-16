@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 1.0.2
+Hackintosh NUC7i7BNH - OpenCore 1.0.4
 
 ### Specs
-+ OS: macOS Ventura 13.7.1 (Build 22H221) x86_64 / MacBook Pro14,2
++ OS: macOS Ventura 13.7.5 (Build 22H527) x86_64 / MacBook Pro14,2
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -22,7 +22,7 @@ Hackintosh NUC7i7BNH - OpenCore 1.0.2
 
 + Sleep doesn't work for Ventura.
 
-### upgrading to OC_1.0.2
+### Upgrade to OC_1.0.4
 
 + Recompile most of the outdated kext with Xcode 15.2 and Lilu 1.6.9
 
