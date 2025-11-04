@@ -1,8 +1,8 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 1.0.5
+Hackintosh NUC7i7BNH - OpenCore 1.0.6
 
 ### Specs
-+ OS: macOS Sequoia 15.5 (Build 24F74) x86_64 / Macmini8,1
++ OS: macOS Sequoia 15.7.2 (Build 24G325) x86_64 / Macmini8,1
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -37,6 +37,12 @@ Hackintosh NUC7i7BNH - OpenCore 1.0.5
 ### Before upgrading to Ventura from Monterey
 
 + Replace "AirportItlwm.kext" with Ventura version.
+
+### Before upgrading to Sequoia from Ventura
+
++ Switching MacBookPro14,2 to Macmini8,1.
+
++ Upgrade to OC_1.0.5 and recompile most of the outdated kexts post-upgrade.
 
 ### Comments
 
