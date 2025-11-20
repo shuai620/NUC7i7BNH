@@ -2,7 +2,7 @@
 Hackintosh NUC7i7BNH - OpenCore 1.0.6
 
 ### Specs
-+ OS: macOS Sequoia 26.2 (Build 25C5048a) x86_64 / MacBookPro16,4
++ OS: macOS Tahoe 26.2 (Build 25C5048a) x86_64 / MacBookPro16,4
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
