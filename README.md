@@ -2,7 +2,7 @@
 Hackintosh NUC7i7BNH - OpenCore 1.0.6
 
 ### Specs
-+ OS: macOS Sequoia 15.7.2 (Build 24G325) x86_64 / Macmini8,1
++ OS: macOS Sequoia 26.2 (Build 25C5048a) x86_64 / MacBookPro16,4
 
 + CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
 
@@ -20,7 +20,9 @@ Hackintosh NUC7i7BNH - OpenCore 1.0.6
 
 ### Don't work
 
-+ Sleep doesn't work for Ventura.
++ Sleep doesn't work.
+
++ Dual-Monitors doesn't work for Tahoe.
 
 ### Upgrade to OC_1.0.4
 
@@ -44,6 +46,14 @@ Hackintosh NUC7i7BNH - OpenCore 1.0.6
 
 + Upgrade to OC_1.0.5 and recompile most of the outdated kexts post-upgrade.
 
+### Upgrading to Tahoe from Sequoia
+
++ Switching Macmini8,1 to MacBookPro16,4.
+
++ Require OCLP-mod to patch AppleHDA and USB ports.
+
++ remove "AirportItlwm.kext".
+
 ### Comments
 
 + Fix HEVC support in VideoProc, by delete the item in "config.plist": DeviceProperties -> PciRoot(0x0)/Pci(0x2,0x0) -> "AAPL,slot-name".
@@ -60,6 +70,8 @@ Hackintosh NUC7i7BNH - OpenCore 1.0.6
 
 + Intel wireless card driver for Ventura, Monterey and Big Sur can be found in https://github.com/OpenIntelWireless/itlwm
 
++ Intel wireless card driver for Tahoe is not availible yet.
+
 + Intel bluetooth driver for Ventura, Monterey and Big Sur can be found in https://github.com/zxystd/IntelBluetoothFirmware
 
 ### Credits
@@ -69,3 +81,5 @@ Hackintosh NUC7i7BNH - OpenCore 1.0.6
 + https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/kaby-lake.html
 
 + https://github.com/RehabMan/Intel-NUC-DSDT-Patch
+
++ https://github.com/laobamac/OCLP-Mod
