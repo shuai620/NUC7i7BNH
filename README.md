@@ -1,10 +1,10 @@
 # NUC7i7BNH
-Hackintosh NUC7i7BNH - OpenCore 1.0.7
+Hackintosh NUC7i7BNH - OpenCore 1.0.8
 
 ### Specs
-+ OS: macOS Tahoe 26.7 (Build 25G229) x86_64 / MacBookPro16,4
++ OS: macOS Tahoe 26.7.3 (Build 25G342) x86_64 / MacBookPro16,4
 
-+ CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 600 MHz)
++ CPU: Intel® Core™ i7-7567U Processor (4M Cache, up to 4.0 GHz, down to 1.2 GHz)
 
 + Graphics: Intel Iris Plus Graphics 650
 
@@ -19,8 +19,6 @@ Hackintosh NUC7i7BNH - OpenCore 1.0.7
 + Monitor: DELL P2418D
 
 ### Don't work
-
-+ Sleep doesn't work.
 
 + Dual-Monitors doesn't work for Tahoe.
 
@@ -73,6 +71,8 @@ Hackintosh NUC7i7BNH - OpenCore 1.0.7
 + Intel wireless card driver for Tahoe requires patches from OCLP-Mod.
 
 + Intel bluetooth driver for Ventura, Monterey and Big Sur can be found in https://github.com/zxystd/IntelBluetoothFirmware
+
++ Fix black screen from wakeup after long sleep, by adding igfxfcmsfbs=2 agdpmod=ignore in boot-args
 
 ### Credits
 
